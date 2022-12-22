@@ -1,0 +1,21 @@
+[package]
+name = "persian_str_rs"
+version = "0.1.0"
+edition = "2021"
+authors = ["fadedreams7 <fadedreams7@gmail.com>"]
+keywords = ["persian", "string"]
+categories = ["rust-patterns", "no-std", "text-processing"]
+description = "This library provides functions for working with Persian strings in Rust."
+license-file = "LICENSE"
+documentation = "https://github.com/fadedreams/persian_str_rs"
+homepage = "https://github.com/fadedreams/persian_str_rs"
+repository = "https://github.com/fadedreams/persian_str_rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+regex = "1.4"
+
+[lib]
+path = "src/lib.rs"
+
